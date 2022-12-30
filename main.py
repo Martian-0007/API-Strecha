@@ -11,7 +11,7 @@ heaters = None
 
 # Time and date gathering
 today = datetime.date(datetime.now())
-tomorrow = today + timedelta(1)
+tomorrow = today + timedelta(6)
 iso_todate = today.isoformat()
 iso_tomordate = tomorrow.isoformat()
 
