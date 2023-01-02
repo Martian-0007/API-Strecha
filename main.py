@@ -56,7 +56,7 @@ while True:
     print("Current temperature: "+str(CurrentDict["temperature"])+" °C")
     print("Current windspeed: "+str(CurrentDict["windspeed"])+" kts")
     print("Current wind direction: "+str(CurrentDict["winddirection"])+"°")
-    notify.send("Current weather \nTime: "+WeatherTime[-5:]+"\nCurrent temperature: "+str(CurrentDict["temperature"])+" °C"+"\nCurrent windspeed: "+str(CurrentDict["windspeed"])+" kts"+"Current wind direction: "+str(CurrentDict["winddirection"])+"°")
+    notify.send("Current weather in Liberec\nTime: "+WeatherTime[-5:]+"\nCurrent temperature: "+str(CurrentDict["temperature"])+" °C"+"\nCurrent windspeed: "+str(CurrentDict["windspeed"])+" kts"+"\nCurrent wind direction: "+str(CurrentDict["winddirection"])+"°")
 
     # Forecast handling
     for i in TimeList:
