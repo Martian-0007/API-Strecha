@@ -77,5 +77,8 @@ while True:
         else:
             print("No need to run the heaters")
             notify.send('Okap heater \nNo need to run the heaters')
-
+    
+    j = 0
+    k = 0
+    i = 0
     time.sleep(3600)
